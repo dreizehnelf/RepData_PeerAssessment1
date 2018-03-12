@@ -128,6 +128,7 @@ print(sprintf("Mean: %f", mean_steps))
 print(sprintf("Median: %d", median_steps))
 ```
 
+The mean is approx. 10766 and the median is 10765 - so it's actually very nice distribution around the median.
 
 ## What is the average daily activity pattern?
 
@@ -286,4 +287,4 @@ labs(
 daytype_plot
 ```
 
-There a slight difference in patterns, although the general shape of the step-series looks quite similar. As to be expected, people seem to be getting up a little bit later on the weekends compared to regular weekdays and they seem to be active slightly longer on the weekends.
+There is a slight difference in patterns, although the general shape of the step-series looks quite similar. As to be expected, people seem to be getting up a little bit later on the weekends compared to regular weekdays and they seem to be active slightly longer on the weekends.
